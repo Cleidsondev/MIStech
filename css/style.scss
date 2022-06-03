@@ -554,3 +554,68 @@ $btn_color: #B5F575;
         margin-bottom: 50rem;
     }
   }
+
+  @media (max-width:500px) {
+    html, body {
+      overflow-x: hidden;
+     }
+    * {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    body {
+      background-position: center;
+      background-size:cover;
+      background-repeat: no-repeat;
+    }
+    #início {
+      margin-top: 5rem;
+      sub {
+        width: 350px;
+        margin: 0 auto;
+      }
+      sub br {
+        display: none;
+      }
+      .grafic {
+        width: 500px;
+        padding-bottom: 3rem;
+        margin-bottom: 0px;
+      }
+    }
+
+    #qualidade {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      .sub_1 {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 1rem;
+      }
+      sub br {
+        display: none;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      img {
+        width: 300px;
+      }
+    }
+
+    #feedback {
+      text-align: center;
+      .ret {
+        width: 300px;
+        margin: 0 auto;
+      }
+      button {
+        margin: 0 auto;
+      }
+    }
+      
+
+    
+
+  }
