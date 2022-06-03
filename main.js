@@ -1,5 +1,12 @@
-function menuOnClick() {
-    document.getElementById("menu-bar").classList.toggle("change");
-    document.getElementById("nav").classList.toggle("change");
-    document.getElementById("menu-bg").classList.toggle("change-bg");
-  }
+const container = document .querySelector('.card_grafic')
+const card = document .querySelector('.grafic')
+
+const {width, height}  = container.getBoundingClientRect();
+
+container.addEventListener( 'mousemove', (event) => {
+const { offsetX, offsetY } = event;
+
+card.style.setProperty('--x-pos', (offsetX / width) - 0.6);
+card.style.setProperty('--y-pos', (offsetY / height) - 0.6);
+
+})
