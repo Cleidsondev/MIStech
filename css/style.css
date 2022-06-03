@@ -651,9 +651,7 @@
     font-size: 2rem;
   }
   body {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(/src/arq/mobile.png);
   }
   #início {
     margin-top: 5rem;
@@ -697,6 +695,9 @@
   }
   #feedback button {
     margin: 0 auto;
+  }
+  #materias .container_mat {
+    gap: 4rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

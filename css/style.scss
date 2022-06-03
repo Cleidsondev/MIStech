@@ -565,9 +565,7 @@ $btn_color: #B5F575;
       }
     }
     body {
-      background-position: center;
-      background-size:cover;
-      background-repeat: no-repeat;
+      background: url(/src/arq/mobile.png);
     }
     #início {
       margin-top: 5rem;
@@ -615,7 +613,11 @@ $btn_color: #B5F575;
       }
     }
       
-
+    #materias {
+      .container_mat {
+        gap: 4rem;
+      }
+    }
     
 
   }
