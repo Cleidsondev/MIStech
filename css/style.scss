@@ -102,13 +102,13 @@ $btn_color: #B5F575;
 
 .grafic {
   --x-pos: 0;
-  --y-angle: calc(var(--x-pos) * 3deg);
+  --y-angle: calc(var(--x-pos) * 2deg);
 
   --y-pos: 0;
-  --x-angle: calc(var(--y-pos) * 3deg);
+  --x-angle: calc(var(--y-pos) * 2deg);
 
   transform: 
-  perspective(400px)
+  perspective(300px)
   rotateY(var(--y-angle))
   rotateX(var(--x-angle));
 }
